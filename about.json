@@ -1,9 +1,10 @@
 {
   "name": "STEM-Away 1-Click Resume Theme",
-  "about_url": null,
+  "about_url": "https://github.com/keegangeorge/stemaway-resume",
   "license_url": null,
   "assets": {
   },
   "color_schemes": {
-  }
+  },
+  "component": true
 }
