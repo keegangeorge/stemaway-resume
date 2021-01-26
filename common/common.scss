@@ -1,8 +1,102 @@
-.job-title {
-    color: pink;
-}
+.job,
+.school {
+  background-color: white;
+  box-shadow: 0px 1px 9px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.5rem;
+  color: #a4a9b8;
+  font-weight: 400;
 
-.resume-email {
-    font-weight: 900;
-    color: red;
+  a {
+    color: #96b67b;
+    transition: border 0.5s ease;
+
+    &:hover {
+      border-bottom: 2px solid #96b67b;
+    }
+  }
+
+  .job-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #96b67b;
+  }
+
+  .company {
+    color: #a4a9b8;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  .type {
+    color: #a4a9b8;
+    font-weight: 400;
+    display: inline-block;
+
+    &::before {
+      content: " · ";
+    }
+  }
+
+  .institution {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #96b67b;
+  }
+
+  .degree {
+    color: #a4a9b8;
+    font-weight: 400;
+  }
+
+  .logo {
+    // When no image is present:
+    font-family: monospace;
+    color: rgb(163, 163, 163);
+
+    // Uploaded image styling
+    img {
+      width: 60px;
+      height: auto;
+      margin-top: 0.25rem;
+      margin-bottom: 0.5rem;
+      margin-left: 0;
+      margin-right: 0;
+      border-radius: 6px;
+    }
+  }
+
+  .location {
+  }
+
+  .grade {
+    color: #a4a9b8;
+    font-weight: 600;
+    display: inline-block;
+    background: #96b67b57;
+    border-radius: 6px;
+    color: #96b67b;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .dates {
+    display: table;
+    background: rgba(164, 169, 184, 0.15);
+    border-radius: 6px;
+    color: #a4a9b8;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .description {
+    color: #8c919b;
+    background-color: #edf2f7;
+    font-weight: 400;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
 }
